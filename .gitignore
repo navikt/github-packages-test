@@ -1,0 +1,9 @@
+# Idea project files
+*.iml
+.idea/
+
+# Maven files
+target/
+
+# OS specific
+.DS_Store
