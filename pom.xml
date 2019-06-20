@@ -6,12 +6,18 @@
 
     <groupId>no.nav.test</groupId>
     <artifactId>github-packages-test</artifactId>
-    <version>1.0</version>
+    <version>1.3-5</version>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
     </properties>
+
+    <scm>
+        <connection>scm:git:https://github.com/navikt/github-packages-test.git</connection>
+        <developerConnection>scm:git:https://github.com/navikt/github-packages-test.git</developerConnection>
+        <url>https://github.com/navikt/github-packages-test.git</url>
+    </scm>
 
     <distributionManagement>
         <repository>
